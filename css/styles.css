@@ -1,0 +1,37 @@
+.flex-container{
+    display:flex;
+    background-color: #1F2937;
+    width:100%;
+}
+*{
+    margin:0px;
+}
+.item{
+    background-color: #1F2937;
+}
+.item.logo{
+    width:50%;
+    color:#F9FAF8;
+    justify-content: center;
+    padding-left:50px;
+    font-size:24px;
+}
+.item.links{
+    width:50%;
+    align-items:right;
+    padding-top:30px;
+    padding-left:600px;
+    font-size:18px;
+    color:#E5E7EB;
+    justify-content:space-between;
+}
+img{
+    width: 200px;
+    height: 300px;;
+}
+li{
+    display:inline;
+    text-decoration:none;
+    padding-left:10px;
+    padding-right:10px;
+}
